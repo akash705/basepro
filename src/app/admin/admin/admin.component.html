@@ -1,0 +1,24 @@
+<div class="container" >
+    <div class="row">
+        <table class="table table-striped " >
+            <thead class="thead-inverse">
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>dob</th>
+                <th>Occupation</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody  >
+              <tr *ngFor="let user of userarray">
+                <td>{{user.name}}</td>
+                <td>{{user.age}}</td>
+                <td>{{user.dob}} </td>
+                <td>{{user.occupation}} </td>
+                <td>{{user.email}} </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

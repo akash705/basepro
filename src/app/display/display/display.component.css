@@ -1,0 +1,11 @@
+.card{
+    border:1px solid rgba(0,0,0,.125);
+    padding:10px;
+    border-radius: 2px;
+}
+.card-footer{
+    padding:20px;   
+}
+option{
+    padding:10px;
+}
